@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply w-full min-h-screen bg-navy text-white font-barlow;
+}
