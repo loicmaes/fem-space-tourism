@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@iconoir/vue':
+        specifier: ^7.7.0
+        version: 7.7.0(vue@3.4.27)
       '@nuxtjs/tailwindcss':
         specifier: ^6.12.0
         version: 6.12.0(rollup@4.18.0)
@@ -393,6 +396,15 @@ packages:
 
   '@iconify/utils@2.1.23':
     resolution: {integrity: sha512-YGNbHKM5tyDvdWZ92y2mIkrfvm5Fvhe6WJSkWu7vvOFhMtYDP0casZpoRz0XEHZCrYsR4stdGT3cZ52yp5qZdQ==}
+
+  '@iconoir/vue@7.7.0':
+    resolution: {integrity: sha512-EvJK80DUGpCFd2MZsC5K6duv/h4zafruBSQYV9F5b+kJOrdWNCHxEHpwbUwjsI35GpSzMD0N2jAR86s3YTsMmw==}
+    peerDependencies:
+      '@vue/composition-api': '>=1.0.0-rc.1'
+      vue: ^2.6.11 || >=3.0.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
 
   '@ioredis/commands@1.2.0':
     resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}
@@ -4236,6 +4248,11 @@ snapshots:
       mlly: 1.7.0
     transitivePeerDependencies:
       - supports-color
+
+  '@iconoir/vue@7.7.0(vue@3.4.27)':
+    dependencies:
+      vue: 3.4.27
+      vue-demi: 0.14.7(vue@3.4.27)
 
   '@ioredis/commands@1.2.0': {}
 
