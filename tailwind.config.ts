@@ -5,6 +5,7 @@ export default {
       navy: '#0B0D17',
       blue: '#D0D6F9',
       white: '#FFFFFF',
+      darkish: '#0B0D17',
     },
     fontFamily: {
       bellefair: 'Bellefair, serif',
